@@ -31,6 +31,7 @@ class Simulator
   AGENT_ADDITIONAL_RULES = <<~CONTENT
     Rules:
     - You are having a conversation in a group of #{NUM_CAST_MEMBERS}.
+    - You are meeting with the group for the first time.
     - Do not respond with more than one paragraph at a time.
     - Speak naturally as a human and do not sound robotic.
     - If the conversation is becoming repetitive, change the topic or end the conversation.
